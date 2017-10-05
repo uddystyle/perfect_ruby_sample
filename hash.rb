@@ -291,16 +291,16 @@ now = Time.now
 # p Time.utc(*args)
 # p Time.local(*args)
 
-now = Time.now
-p now.strftime('%Y/%m/%d %H:%M:%S')
-p now.strftime('%Y')
-p now.strftime('%010Y')
-p now.strftime('%_10Y')
-p now.strftime('%m')
-p now.strftime('%-m')
+# now = Time.now
+# p now.strftime('%Y/%m/%d %H:%M:%S')
+# p now.strftime('%Y')
+# p now.strftime('%010Y')
+# p now.strftime('%_10Y')
+# p now.strftime('%m')
+# p now.strftime('%-m')
 
-p now.strftime('%p')
-p now.strftime('%a')
-p now.strftime('%#p')
+# p now.strftime('%p')
+# p now.strftime('%a')
+# p now.strftime('%#p')
 
-p now.strftime('%^B')
+# p now.strftime('%^B')

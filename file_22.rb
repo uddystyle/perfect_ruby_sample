@@ -1,0 +1,1 @@
+open('foo') {|f| puts f.read}
