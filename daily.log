@@ -1,0 +1,17 @@
+require 'yaml'
+
+desc "今までの食事の名前とカロリー履歴フィアルを作成"
+file 'menu_history.yml' => 'daily.yml' do |t|
+  sh "cat #{t.prerequisites.join('')} >> #{t.name}"
+end
+
+rule '.yml' => '.log' do |t|
+  data = {}
+  File.open(t.source).each do |line|
+    data.merge!(Hash[*line.chomp!.split(/,/)])
+  end
+
+  File.open(t.name, 'w') do |f|
+    f.write data_to_yaml
+  end
+end

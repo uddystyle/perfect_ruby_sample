@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Object - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link">BasicObject
+  
+</div>
+
+    <div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><span class="include">ERB::Util</span>
+  
+  
+  
+    <li><span class="include">Math</span>
+  
+  
+  </ul>
+</div>
+
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-c-const_defined_in-3F">::const_defined_in?</a>
+    
+    <li class="calls-super" ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-i-add_from_class_eval">#add_from_class_eval</a>
+    
+    <li ><a href="#method-i-block_sample">#block_sample</a>
+    
+    <li ><a href="#method-i-class_method">#class_method</a>
+    
+    <li ><a href="#method-i-convert_proc">#convert_proc</a>
+    
+    <li ><a href="#method-i-countup">#countup</a>
+    
+    <li ><a href="#method-i-create_proc">#create_proc</a>
+    
+    <li ><a href="#method-i-default_argument_for_block">#default_argument_for_block</a>
+    
+    <li ><a href="#method-i-display_value">#display_value</a>
+    
+    <li ><a href="#method-i-fetch">#fetch</a>
+    
+    <li ><a href="#method-i-flexible_arguments_for_block">#flexible_arguments_for_block</a>
+    
+    <li ><a href="#method-i-greet">#greet</a>
+    
+    <li ><a href="#method-i-hello">#hello</a>
+    
+    <li ><a href="#method-i-keywords">#keywords</a>
+    
+    <li ><a href="#method-i-keywords_with_options">#keywords_with_options</a>
+    
+    <li ><a href="#method-i-lambda_return">#lambda_return</a>
+    
+    <li ><a href="#method-i-proc_factory">#proc_factory</a>
+    
+    <li ><a href="#method-i-proc_return">#proc_return</a>
+    
+    <li ><a href="#method-i-unique_method">#unique_method</a>
+    
+    <li ><a href="#method-i-what_class">#what_class</a>
+    
+    <li ><a href="#method-i-with_current_time">#with_current_time</a>
+    
+    <li ><a href="#method-i-yield_proc">#yield_proc</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Object">
+  <h1 id="class-Object" class="class">
+    class Object
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+    <section class="constants-list">
+      <header>
+        <h3>Constants</h3>
+      </header>
+      <dl>
+      
+        <dt id="Bar">Bar
+        
+        <dd>
+        
+      
+        <dt id="CONST_VAL">CONST_VAL
+        
+        <dd>
+        
+      
+        <dt id="EigenClass">EigenClass
+        
+        <dd>
+        
+      
+        <dt id="FirstClass">FirstClass
+        
+        <dd>
+        
+      
+        <dt id="Foo">Foo
+        
+        <dd>
+        
+      
+        <dt id="Human">Human
+        
+        <dd>
+        
+      
+        <dt id="KLASS_OBJECT">KLASS_OBJECT
+        
+        <dd>
+        
+      
+        <dt id="NamedClass">NamedClass
+        
+        <dd>
+        
+      
+        <dt id="NewDefineClass">NewDefineClass
+        
+        <dd><p>class ExpDefineClass</p>
+
+<pre class="ruby"><span class="ruby-identifier">puts</span> <span class="ruby-identifier">external_scope</span>
+</pre>
+
+<p>end</p>
+        
+      
+        <dt id="SINGLETON_OBJECT">SINGLETON_OBJECT
+        
+        <dd>
+        
+      
+        <dt id="SecondClass">SecondClass
+        
+        <dd>
+        
+      
+        <dt id="SingletonClass">SingletonClass
+        
+        <dd>
+        
+      
+        <dt id="ThirdClass">ThirdClass
+        
+        <dd>
+        
+      
+        <dt id="VALUE">VALUE
+        
+        <dd>
+        
+      
+      </dl>
+    </section>
+    
+
+    
+
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+    
+      <div id="method-c-const_defined_in-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">const_defined_in?</span><span
+            class="method-args">(modul, constant)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="const_defined_in-3F-source">
+            <pre><span class="ruby-comment"># File method_12.rb, line 2</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">const_defined_in?</span>(<span class="ruby-identifier">modul</span>, <span class="ruby-identifier">constant</span>)
+  <span class="ruby-identifier">modul</span>.<span class="ruby-identifier">const_defined?</span>(<span class="ruby-identifier">constant</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(src, trim_mode, percent)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+            <div class="method-calls-super">
+              Calls superclass method
+              
+            </div>
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File method_13.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">src</span>, <span class="ruby-identifier">trim_mode</span>, <span class="ruby-identifier">percent</span>)
+  <span class="ruby-keyword">super</span>
+
+  <span class="ruby-ivar">@trim_mode</span> = <span class="ruby-identifier">trim_mode</span>
+  <span class="ruby-ivar">@percent</span> = <span class="ruby-identifier">percent</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@trim_mode</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;&gt;&#39;</span>
+    <span class="ruby-ivar">@scan_line</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">method</span>(<span class="ruby-value">:trim_line1</span>)
+  <span class="ruby-keyword">elsif</span> <span class="ruby-ivar">@trim_mode</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;&lt;&gt;&#39;</span>
+    <span class="ruby-ivar">@scan_line</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">method</span>(<span class="ruby-value">:trim_line2</span>)
+  <span class="ruby-keyword">elsif</span> <span class="ruby-ivar">@trim_mode</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;-&#39;</span>
+    <span class="ruby-ivar">@scan_line</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">method</span>(<span class="ruby-value">:explicit_trim_line</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@scan_line</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">method</span>(<span class="ruby-value">:scan_line</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-add_from_class_eval" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_from_class_eval</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="add_from_class_eval-source">
+            <pre><span class="ruby-comment"># File module_method_added.rb, line 16</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_from_class_eval</span>; <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-block_sample" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">block_sample</span><span
+            class="method-args">(&block)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="block_sample-source">
+            <pre><span class="ruby-comment"># File block_sample.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">block_sample</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&#39;stand up&#39;</span>
+
+  <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>
+
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&#39;sit down&#39;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-class_method" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">class_method</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="class_method-source">
+            <pre><span class="ruby-comment"># File eval_06.rb, line 8</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">class_method</span>
+  <span class="ruby-value">:class_method</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-convert_proc" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">convert_proc</span><span
+            class="method-args">(&block)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="convert_proc-source">
+            <pre><span class="ruby-comment"># File proc_04.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">convert_proc</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">block</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-countup" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">countup</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="countup-source">
+            <pre><span class="ruby-comment"># File thread_12.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">countup</span>
+  <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span> <span class="ruby-string">&#39;counter&#39;</span>, <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">RDWR</span> <span class="ruby-operator">|</span> <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">CREAT</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">f</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">last_count</span> = <span class="ruby-identifier">f</span>.<span class="ruby-identifier">read</span>.<span class="ruby-identifier">to_i</span>
+
+    <span class="ruby-identifier">f</span>.<span class="ruby-identifier">rewind</span>
+    <span class="ruby-identifier">f</span>.<span class="ruby-identifier">write</span> <span class="ruby-identifier">last_count</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-create_proc" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">create_proc</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="create_proc-source">
+            <pre><span class="ruby-comment"># File clojure_01.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">create_proc</span>
+  <span class="ruby-identifier">str</span> = <span class="ruby-string">&#39;from create_proc&#39;</span>
+  <span class="ruby-constant">Proc</span>.<span class="ruby-identifier">new</span> { <span class="ruby-identifier">str</span> }
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-default_argument_for_block" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">default_argument_for_block</span><span
+            class="method-args">() { || ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="default_argument_for_block-source">
+            <pre><span class="ruby-comment"># File arg_for_block.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">default_argument_for_block</span>
+  <span class="ruby-keyword">yield</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-display_value" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">display_value</span><span
+            class="method-args">() { || ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="display_value-source">
+            <pre><span class="ruby-comment"># File dislplay_value_next.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">display_value</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-keyword">yield</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-fetch" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">fetch</span><span
+            class="method-args">(uri, limit = 6)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="fetch-source">
+            <pre><span class="ruby-comment"># File http_05.rb, line 4</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">fetch</span>(<span class="ruby-identifier">uri</span>, <span class="ruby-identifier">limit</span> = <span class="ruby-value">6</span>)
+  <span class="ruby-identifier">response</span> = <span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTP</span>.<span class="ruby-identifier">get_response</span>(<span class="ruby-identifier">uri</span>)
+
+  <span class="ruby-keyword">case</span> <span class="ruby-identifier">response</span>.<span class="ruby-identifier">code</span>.<span class="ruby-identifier">to_i</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">200</span>
+      <span class="ruby-identifier">puts</span> <span class="ruby-identifier">response</span>.<span class="ruby-identifier">body</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">301</span>, <span class="ruby-value">302</span>
+      <span class="ruby-keyword">unless</span> <span class="ruby-identifier">limit</span>.<span class="ruby-identifier">zero?</span>
+        <span class="ruby-identifier">fetch</span> <span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">response</span>[<span class="ruby-string">&#39;Location&#39;</span>]), <span class="ruby-identifier">limit</span>.<span class="ruby-identifier">pred</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-identifier">response</span>.<span class="ruby-identifier">value</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">response</span>.<span class="ruby-identifier">value</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-flexible_arguments_for_block" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">flexible_arguments_for_block</span><span
+            class="method-args">() { |1, 2, 3| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="flexible_arguments_for_block-source">
+            <pre><span class="ruby-comment"># File arg_for_block.rb, line 9</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">flexible_arguments_for_block</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-greet" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">greet</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="greet-source">
+            <pre><span class="ruby-comment"># File undef.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">greet</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&#39;hola&#39;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-hello" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">hello</span><span
+            class="method-args">(names)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="hello-source">
+            <pre><span class="ruby-comment"># File hello.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">hello</span>(<span class="ruby-identifier">names</span>)
+  <span class="ruby-identifier">names</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">name</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;HELLO, #{name.upcase}&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-keywords" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">keywords</span><span
+            class="method-args">(alice:, bob:)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="keywords-source">
+            <pre><span class="ruby-comment"># File keyword_args.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">keywords</span>(<span class="ruby-identifier">alice</span>,, <span class="ruby-identifier">bob</span>))
+  { <span class="ruby-identifier">alice</span><span class="ruby-operator">:</span> <span class="ruby-identifier">alice</span>, <span class="ruby-identifier">bob</span><span class="ruby-operator">:</span> <span class="ruby-identifier">bob</span> }
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-keywords_with_options" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">keywords_with_options</span><span
+            class="method-args">(alice: nil, bob: nil, **others)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="keywords_with_options-source">
+            <pre><span class="ruby-comment"># File keywords_options.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">keywords_with_options</span>(<span class="ruby-identifier">alice</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">bob</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-operator">**</span><span class="ruby-identifier">others</span>)
+  {<span class="ruby-identifier">alice</span><span class="ruby-operator">:</span> <span class="ruby-identifier">alice</span>, <span class="ruby-identifier">bob</span><span class="ruby-operator">:</span> <span class="ruby-identifier">bob</span>, <span class="ruby-identifier">others</span><span class="ruby-operator">:</span> <span class="ruby-identifier">others</span>}
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-lambda_return" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">lambda_return</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="lambda_return-source">
+            <pre><span class="ruby-comment"># File proc_08.rb, line 12</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">lambda_return</span>
+  <span class="ruby-identifier">lambda</span> { <span class="ruby-keyword">return</span> <span class="ruby-value">1</span>; <span class="ruby-identifier">puts</span> <span class="ruby-value">:unreachable</span> }.<span class="ruby-identifier">call</span>
+  <span class="ruby-value">:reachable</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-proc_factory" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">proc_factory</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="proc_factory-source">
+            <pre><span class="ruby-comment"># File proc_01.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">proc_factory</span>
+  <span class="ruby-constant">Proc</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-proc_return" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">proc_return</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="proc_return-source">
+            <pre><span class="ruby-comment"># File proc_08.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">proc_return</span>
+  <span class="ruby-constant">Proc</span>.<span class="ruby-identifier">new</span> { <span class="ruby-keyword">return</span> <span class="ruby-value">1</span>; <span class="ruby-identifier">puts</span> <span class="ruby-value">:unreachable</span> }.<span class="ruby-identifier">call</span>
+  <span class="ruby-value">:unreachable</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-unique_method" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">unique_method</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="unique_method-source">
+            <pre><span class="ruby-comment"># File eval_06.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">unique_method</span>
+  <span class="ruby-value">:unique_method</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-what_class" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">what_class</span><span
+            class="method-args">(obj)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="what_class-source">
+            <pre><span class="ruby-comment"># File proc_03.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">what_class</span>(<span class="ruby-identifier">obj</span>)
+  <span class="ruby-keyword">case</span> <span class="ruby-identifier">obj</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-identifier">proc</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">x</span>.<span class="ruby-identifier">kind_of?</span> <span class="ruby-constant">String</span>}
+    <span class="ruby-constant">String</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-identifier">proc</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">x</span>.<span class="ruby-identifier">kind_of?</span> <span class="ruby-constant">Numeric</span>}
+    <span class="ruby-constant">Numeric</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-constant">Class</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-with_current_time" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">with_current_time</span><span
+            class="method-args">() { |now| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="with_current_time-source">
+            <pre><span class="ruby-comment"># File current_time.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">with_current_time</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-yield_proc" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">yield_proc</span><span
+            class="method-args">() { || ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="yield_proc-source">
+            <pre><span class="ruby-comment"># File proc_05.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">yield_proc</span>
+  <span class="ruby-keyword">yield</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://rdoc.github.io/rdoc">RDoc</a> 5.0.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
